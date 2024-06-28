@@ -1,0 +1,21 @@
+<!-- menu superior DO COMPONENTE -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+  <a class="navbar-brand" [routerLink]="'pagina-inicial'" [routerLinkActive]="'active'">Gerenciador de Tarefas</a>
+  <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'visualizar-tarefas'"
+           [routerLinkActive]="'active'" >Visualizar Tarefas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'sobre'"
+           [routerLinkActive]="'active'" >Sobre</a>
+      </li>
+    </ul>
+  </div>
+</nav>

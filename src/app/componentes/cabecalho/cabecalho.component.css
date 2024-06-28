@@ -1,0 +1,8 @@
+a.active {
+  font-weight: bold; /* deixar em negrito o link */
+  text-decoration: underline black;
+}
+
+a:hover{
+  text-decoration: underline black;
+}
