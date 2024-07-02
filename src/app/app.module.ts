@@ -9,6 +9,7 @@ import { PaginaInicialComponent } from './componentes/pagina-inicial/pagina-inic
 import { VisualizarTarefasComponent } from './componentes/visualizar-tarefas/visualizar-tarefas.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { SobreComponent } from './componentes/sobre/sobre.component';
+import { ListaComprasComponent } from './componentes/lista-compras/lista-compras.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
     RodapeComponent,
     PaginaInicialComponent,
     VisualizarTarefasComponent,
-    SobreComponent
+    SobreComponent,
+    ListaComprasComponent
   ],
   imports: [
     BrowserModule,
